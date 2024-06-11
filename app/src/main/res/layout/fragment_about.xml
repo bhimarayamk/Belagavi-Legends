@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="About"
+        android:textColor="#283593"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="15dp"
+        android:text="This Android Application presents a proposal to explore and document the historical legends surrounding the city of Belagavi. The objective is to delve into the rich historical narrative of the region, uncovering forgotten tales and preserving them for future generations. By conducting thorough research, collating existing literature, and utilizing various facilities, this project aims to shed light on the intriguing historical legends of Belagavi."
+        android:layout_marginLeft="15dp" />
+
+
+</FrameLayout>

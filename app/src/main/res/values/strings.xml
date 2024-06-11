@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Belgaum Legends</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selectSource">Select Source</string>
+    <string name="selectDestin">Select Destination</string>
+    <string name="title_activity_check_fare">checkFare</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="amaturu_balappa">Amaturu Balappa</string>
+    <string name="ratta_dynasty">Ratta Dynasty</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="signup">SignUp?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="this_android_application_presents_a_proposal_to_explore_and_document_the_historical_legends_surrounding_the_city_of_belagavi_the_objective_is_to_delve_into_the_rich_historical_narrative_of_the_region_uncovering_forgotten_tales_and_preserving_them_for_future_generations_by_conducting_thorough_research_collating_existing_literature_and_utilizing_various_facilities_this_project_aims_to_shed_light_on_the_intriguing_historical_legends_of_belagavi">This android application presents a proposal to explore and document the historical legends surrounding the city of Belagavi. The objective is to delve into the rich historical narrative of the region, uncovering forgotten tales and preserving them for future generations. By conducting thorough research, collating existing literature, and utilizing various facilities, this project aims to shed light on the intriguing historical legends of Belagavi.</string>
+</resources>

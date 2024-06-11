@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExploreFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/exploreView1"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/krc" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="20dp"
+                    android:text="Kittur Rani Chennamma"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/exploreView2"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sgl" />
+
+
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="20dp"
+                    android:text="Sangolli Rayanna"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/exploreView3"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/belwadimallamma" />
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:orientation="vertical"-->
+                <!--                    android:layout_marginLeft="5dp">-->
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Belawadi Mallamma"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/exploreView4"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/rat" />
+
+
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="@string/ratta_dynasty"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/exploreView5"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/balappa" />
+
+
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="@string/amaturu_balappa"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/exploreView6"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shrnappa" />
+
+
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Bicchugatti sharanappa"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/exploreView7"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/basu" />
+
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Basappa Danappa Jatti"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView8"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/chandrashekar" />
+
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Dr.Chandrashekhar Kambar"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView9"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mallikarjun" />
+
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Naik Malikarjun Hanamanth Murabandi"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView10"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/subedar" />
+
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Subedar Basappa Patil"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView11"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cfn"/>
+
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="CFN Bharateshwar Padanad"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView12"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/prakash"/>
+
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Sapper Prakash Jadhav KC"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView13"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/rahul"/>
+
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Sep Rahul Bhairu Sulagekar"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView14"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sagar"/>
+
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Sep Sagar Basavaraj Kumbhar"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView15"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bharath"/>
+
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Lance Naik Bharat Maske"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView16"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lakshmana"/>
+
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Sindhura Lakshmana"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView17"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView35"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/athani"/>
+
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Babu Hujare"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/exploreView18"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView36"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/athani"/>
+
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="Ramappa Monappa Kamble"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
